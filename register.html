@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://static.vecteezy.com/system/resources/previews/007/539/914/non_2x/news-logo-design-vector.jpg"
+      type="image/x-icon"
+    />
+    <style>
+      .fullname {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 3px;
+      }
+      .email {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 3px;
+      }
+      .password {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 3px;
+      }
+      i {
+        width: 20px;
+        height: 20px;
+        color: green;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="containner">
+        <div class="logo">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/007/539/914/non_2x/news-logo-design-vector.jpg"
+            alt=""
+          />
+        </div>
+        <h1>Sign Up</h1>
+        <div>
+          <div class="fullname">
+            <i class="fa fa-user icon"></i>
+            <input type="text" placeholder="First Name" />
+          </div>
+          <div class="fullname">
+            <i class="fa fa-user icon"></i>
+            <input type="text" placeholder="Last Name" />
+          </div>
+
+          <div class="email">
+            <i class="fa fa-envelope icon"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="password">
+            <i class="fa fa-key icon"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="password">
+            <i class="fa fa-key icon"></i>
+            <input type="password" placeholder="Confirm Password" />
+          </div>
+          <a href="index.html"><button type="submit">Sign Up</button></a>
+          <div class="signup">
+            <span>Has an account already?</span>
+            <a href="index.html">SignIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
