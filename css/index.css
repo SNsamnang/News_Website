@@ -251,6 +251,7 @@ p {
   width: 100%;
   border-radius: 5px 5px 0px 0px;
   overflow: hidden;
+  position: relative;
 }
 .col img {
   width: 100%;
@@ -265,6 +266,14 @@ p {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+.col h6 {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  position: absolute;
+  right: 0px;
 }
 /* Destop */
 @media (min-width: 1200px), (max-width: 1200px) {
